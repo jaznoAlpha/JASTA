@@ -11,7 +11,7 @@ from z_classes import Stock_On_Watch_List
 from x_method_for_returning_stock_watch_list import return_stock_watch_list
 
 # Polygon.io API Key - Polygon.io is a free resource for getting historical price data for a particular stock
-YOUR_API_KEY = "onxSd1AZUcAw5vXpItJE7yXQwGWprgYm"
+YOUR_API_KEY = "INSERT_API_KEY_HERE"
 
 def polygon_day_by_day_data(stocks: List[Stock_On_Watch_List], start_date: datetime = None, end_date: datetime = None) -> List[dict]:
     """
